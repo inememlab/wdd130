@@ -180,9 +180,101 @@ footer nav{
 footer nav a{
     text-decoration: none;
 }
+footer nav a:first-child{
+    color: var(--accent1-color);
+    margin-right: 350px;
+    margin-top: 15px;
+}
 footer nav a img{
     max-width: 50px;
     max-height: 50px;
     margin-top: 5px;
     margin: 5px;
+}
+.contact{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    background-color: var(--accent2-color);
+    width: 100%;
+    height: auto;
+    margin: 2px;
+}
+.contact section{
+    background-color: var(--accent2-color);
+    border: none;
+    display: grid;
+    padding: 5px;
+}
+.contact section h1{
+    margin-top: -5px;
+    padding-left: 5px;
+}
+.contact section p{
+    padding-left: 16px;
+    font-size: 17px;
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: 6px;
+}.map iframe{
+    max-width: 400px;
+    max-height: 350px;
+}
+.contact img{
+    width: 400px;
+    height: 350px;
+    padding-top: 254px;
+}
+.contact form{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 0.5rem;
+    background-color: var(--accent1-color);
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid var(--secondary-color);
+    padding: 1rem;
+}
+  legend{
+    padding: 0.5rem;
+    font-size: 1.2em;
+}
+label{
+    text-align: left;
+    padding-right: 1rem;
+    font-size: 0.9em;
+}
+input, textarea{
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 5px;
+}
+  input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+}
+button{
+    margin: 1rem;
+    background-color: blue;
+    color:white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    font-size: 1rem;
+    width: 80px;
+    height: auto;
+    margin-left:320px ;
+}
+  button:hover{
+    background-color: green;
 }
