@@ -316,3 +316,53 @@ main th,td{
     border: 1px solid var(--secondary-color);
     border-radius: 1px;
 }
+main .img-with-image h1{
+    position: absolute;
+    margin-top: 30px;
+    padding-left: 100px;
+    color: var(--accent1-color);
+}
+main .img-with-image img{
+    width: 100%;
+    padding: 2px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 1px;
+}
+main .cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main .cont .form1{
+    border: 1px solid var(--secondary-color);
+    border-radius: 1px;
+}
+main .form1 fieldset input{
+    border: 1px solid var(--secondary-color);
+}
+main .info{
+    display: grid;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+main .info a{
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+main .img-grid{
+    width: 100%;
+    height: auto;
+    margin-top: 2px;
+    padding: 2px;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+main .img-grid img{
+    max-width: 250px;
+    height: 200px;
+}
+main .img-grid p{
+    padding: 6px;
+}
