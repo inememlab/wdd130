@@ -101,4 +101,8 @@
     background-color: var(--second-color);
     font-family: var(--second-font-family);
   }
+  .margin2{
+    font-family: var(--second-font-family);
+    font-weight: bold;
+  }
 
