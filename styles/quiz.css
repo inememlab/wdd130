@@ -65,7 +65,7 @@
   label{
     text-align: left;
     padding-right: 1rem;
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
   input, select, textarea{
     padding: 0.5rem;
@@ -99,5 +99,6 @@
     margin-left: 150px;
     color: var(--fourth-color);
     background-color: var(--second-color);
+    font-family: var(--second-font-family);
   }
 
